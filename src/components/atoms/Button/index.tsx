@@ -42,6 +42,7 @@ const Button: React.FC<Props> = ({ children, ...props }) => {
         bg: statebg,
       }}
       variant="solid"
+      fontSize="14px"
     >
       {children}
     </CUButton>
