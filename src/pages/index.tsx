@@ -13,9 +13,9 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <ProfileTemplate>
-        <h1>hello world</h1>
-      </ProfileTemplate>
+      {/* <ProfileTemplate> */}
+      <h1>hello world</h1>
+      {/* </ProfileTemplate> */}
       {/* <Navbar isSignedIn={false} />
       <Box as="main">
         <Container maxW="container.xl"></Container>
